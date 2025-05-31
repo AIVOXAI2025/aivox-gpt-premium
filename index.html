@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>AIVOX GPT Blog</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIVOX GPT | Business Name Generator</title>
+  <meta name="description" content="Generate business names using AI for any local niche.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>AIVOX GPT Blog</h1>
-  <article>
-    <h2>Top 5 AI Tools for Local Business Owners</h2>
-    <p>Discover how AI can help you grow your local business, save time, and increase profits.</p>
-  </article>
+  <div class="container">
+    <h1>🧠 AIVOX GPT</h1>
+    <h2>Local Business Name Generator</h2>
+    <input type="text" id="businessType" placeholder="e.g. Restaurant in Delhi" />
+    <button onclick="generateName()">Generate Name</button>
+    <div id="output"></div>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="email" name="email" placeholder="Get full branding kit (Enter your email)" required />
+      <button type="submit">Send Me More</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
