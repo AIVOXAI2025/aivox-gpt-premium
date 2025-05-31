@@ -2,21 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AIVOX GPT | Business Name Generator</title>
-  <meta name="description" content="Generate business names using AI for any local niche.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AIVOX GPT Premium Tools</title>
+  <meta name="description" content="AI-powered branding tools for local businesses.">
   <link rel="stylesheet" href="style.css">
+  <script defer data-domain="aivoxai.com" src="https://plausible.io/js/script.js"></script>
 </head>
 <body>
   <div class="container">
-    <h1>🧠 AIVOX GPT</h1>
-    <h2>Local Business Name Generator</h2>
-    <input type="text" id="businessType" placeholder="e.g. Restaurant in Delhi" />
-    <button onclick="generateName()">Generate Name</button>
-    <div id="output"></div>
+    <h1>🚀 AIVOX GPT PREMIUM</h1>
+    <p>Build local business branding using AI.</p>
+
+    <div class="tool-box">
+      <h2>🧠 Tool 1: Business Name Generator</h2>
+      <input type="text" id="bizInput" placeholder="e.g. Salon in Lucknow"/>
+      <button onclick="generateName()">Generate Name</button>
+      <div id="nameOutput"></div>
+    </div>
+
+    <div class="tool-box">
+      <h2>📸 Tool 2: Instagram Caption Generator</h2>
+      <input type="text" id="captionInput" placeholder="e.g. Food truck, new launch"/>
+      <button onclick="generateCaption()">Generate Caption</button>
+      <div id="captionOutput"></div>
+    </div>
+
+    <div class="premium-box">
+      <h3>🔓 Unlock Premium Tools</h3>
+      <p>Get full branding kit + premium access</p>
+      <a href="https://aivox.gumroad.com/l/premium" target="_blank" class="button">Upgrade Now</a>
+    </div>
+
     <form action="https://formspree.io/f/your-form-id" method="POST">
-      <input type="email" name="email" placeholder="Get full branding kit (Enter your email)" required />
-      <button type="submit">Send Me More</button>
+      <input type="email" name="email" placeholder="Enter email for branding pack" required />
+      <button type="submit">Get Free PDF</button>
     </form>
   </div>
   <script src="script.js"></script>
