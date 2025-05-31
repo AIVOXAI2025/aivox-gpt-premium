@@ -2,54 +2,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AIVOX GPT – Premium AI Tools</title>
-  <style>
-    body { margin: 0; font-family: Arial, sans-serif; background: #0a0a0a; color: #fff; text-align: center; }
-    h1, h2 { margin-bottom: 10px; }
-    p { color: #bbb; }
-    .hero { padding: 100px 20px; background: linear-gradient(135deg, #0f0f0f, #1a1a1a); }
-    .btn { background: #00ffe7; color: #000; padding: 14px 28px; border-radius: 30px; text-decoration: none; font-weight: bold; }
-    .use-cases, .email-block, .cta { padding: 60px 20px; }
-    .use-cases-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; max-width: 800px; margin: 30px auto; }
-    .case { background: #1a1a1a; padding: 20px; border-radius: 16px; }
-    input[type="email"] { padding: 12px; width: 250px; border-radius: 8px; border: none; }
-    button { padding: 12px 24px; background: #00ffe7; color: #000; font-weight: bold; border-radius: 8px; margin-left: 10px; border: none; }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIVOX GPT</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
 </head>
 <body>
-
-  <section class="hero">
-    <h1>Welcome to AIVOX GPT</h1>
-    <p>Your gateway to smarter AI experiences</p>
-    <a href="#email" class="btn">Get Started</a>
-  </section>
-
-  <section class="use-cases">
-    <h2 style="color: #00ffe7;">What Can AIVOX GPT Do?</h2>
-    <div class="use-cases-grid">
-      <div class="case">💼 Business Proposals</div>
-      <div class="case">🎨 Creative Content & Images</div>
-      <div class="case">📊 Market Research & Analysis</div>
-      <div class="case">📧 Email & Ad Copywriting</div>
-    </div>
-  </section>
-
-  <section class="email-block" id="email" style="background: #000;">
-    <h2>Get Early Access</h2>
-    <p>Sign up to be the first to experience AIVOX GPT tools</p>
-    <form action="https://formspree.io/f/yourformid" method="POST">
-      <input type="email" name="email" required placeholder="Your email" />
-      <button type="submit">Notify Me</button>
-    </form>
-  </section>
-
-  <section class="cta" style="background: #161616;">
-    <h2>Launch Your GPT with AIVOX</h2>
-    <p>Power your business with the smartest AI models.</p>
-    <a href="#" class="btn">Try Free Demo</a>
-  </section>
-
+  <header>
+    <h1>AIVOX GPT</h1>
+    <p>Unlock Smarter AI Tools</p>
+    <a href="tools.html" class="btn">Try GPT Tools</a>
+  </header>
+  <main>
+    <section class="email-form">
+      <h2>Get Early Access</h2>
+      <form action="https://formspree.io/f/yourformid" method="POST">
+        <input type="email" name="email" placeholder="Your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+    <section class="cta">
+      <h2>Buy Premium Tools</h2>
+      <a href="https://gumroad.com" class="btn">Buy on Gumroad</a>
+    </section>
+  </main>
 </body>
 </html>
