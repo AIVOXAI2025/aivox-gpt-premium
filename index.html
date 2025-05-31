@@ -3,30 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AIVOX GPT Dashboard</title>
-  <meta name="description" content="User Dashboard for GPT Tool Access">
+  <title>AIVOX GPT Membership</title>
+  <meta name="description" content="Choose your AIVOX GPT membership plan">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="dashboard">
-    <h1>🔐 AIVOX GPT USER DASHBOARD</h1>
-
-    <div class="token-box">
-      <h2>API Token Access</h2>
-      <input type="text" placeholder="Enter your AIVOX API Token" id="tokenInput"/>
-      <button onclick="validateToken()">Validate</button>
-      <div id="tokenStatus"></div>
-    </div>
-
-    <div class="tool-link">
-      <h2>Available Tools</h2>
-      <ul>
-        <li><a href="https://aivox-gpt.vercel.app/" target="_blank">🧠 Business Name Generator</a></li>
-        <li><a href="https://aivox-gpt.vercel.app/" target="_blank">📸 Instagram Caption Generator</a></li>
-        <li><a href="https://aivox.gumroad.com/l/premium" target="_blank">🌟 Unlock More Tools</a></li>
-      </ul>
+  <div class="container">
+    <h1>🚀 AIVOX GPT Membership Plans</h1>
+    <div class="tiers">
+      <div class="tier">
+        <h2>Free</h2>
+        <p>✔️ Access to basic tools</p>
+        <p>❌ No advanced features</p>
+        <a href="https://aivox-gpt.vercel.app/" target="_blank">Start Free</a>
+      </div>
+      <div class="tier featured">
+        <h2>Pro</h2>
+        <p>✔️ All basic tools</p>
+        <p>✔️ Premium GPT tools</p>
+        <p>✔️ Dashboard access</p>
+        <a href="https://aivox.gumroad.com/l/premium" target="_blank">Buy Pro ₹499</a>
+      </div>
+      <div class="tier">
+        <h2>Agency</h2>
+        <p>✔️ All Pro features</p>
+        <p>✔️ Unlimited usage</p>
+        <p>✔️ Resell Rights</p>
+        <a href="https://aivox.gumroad.com/l/agency" target="_blank">Buy Agency ₹1999</a>
+      </div>
     </div>
   </div>
-  <script src="script.js"></script>
 </body>
 </html>
