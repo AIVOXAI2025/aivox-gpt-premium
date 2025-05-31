@@ -3,72 +3,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AIVOX GPT – Smarter Local AI</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIVOX GPT – Premium AI Tools</title>
   <style>
-    body { margin: 0; font-family: 'Inter', sans-serif; background: #0e0e0e; color: #fff; }
-    header { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #00FFD1, #007BFF); color: #000; }
-    h1 { font-size: 3em; margin: 0; }
-    p { font-size: 1.2em; margin-top: 0.5em; }
-    .btn { margin-top: 1.5em; padding: 12px 28px; font-size: 1em; font-weight: bold; background: #000; color: #00FFD1; border: 2px solid #00FFD1; border-radius: 8px; cursor: pointer; }
-    .features, .niches { display: flex; flex-wrap: wrap; justify-content: center; padding: 40px 20px; gap: 20px; }
-    .card { background: #1c1c1c; padding: 20px; border-radius: 12px; width: 250px; text-align: center; border: 1px solid #333; }
-    footer { text-align: center; padding: 20px; font-size: 0.9em; color: #777; }
-    input[type=email] { padding: 10px; width: 250px; border-radius: 6px; border: none; margin-top: 10px; }
-    .email-capture { padding: 40px 20px; text-align: center; background: #151515; }
-    .email-capture button { padding: 10px 20px; margin-top: 10px; background: #00FFD1; border: none; border-radius: 6px; font-weight: bold; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #0a0a0a; color: #fff; text-align: center; }
+    h1, h2 { margin-bottom: 10px; }
+    p { color: #bbb; }
+    .hero { padding: 100px 20px; background: linear-gradient(135deg, #0f0f0f, #1a1a1a); }
+    .btn { background: #00ffe7; color: #000; padding: 14px 28px; border-radius: 30px; text-decoration: none; font-weight: bold; }
+    .use-cases, .email-block, .cta { padding: 60px 20px; }
+    .use-cases-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; max-width: 800px; margin: 30px auto; }
+    .case { background: #1a1a1a; padding: 20px; border-radius: 16px; }
+    input[type="email"] { padding: 12px; width: 250px; border-radius: 8px; border: none; }
+    button { padding: 12px 24px; background: #00ffe7; color: #000; font-weight: bold; border-radius: 8px; margin-left: 10px; border: none; }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>AIVOX GPT</h1>
-  <p>Smarter AI tools for every local business</p>
-  <button class="btn">Start Free</button>
-</header>
+  <section class="hero">
+    <h1>Welcome to AIVOX GPT</h1>
+    <p>Your gateway to smarter AI experiences</p>
+    <a href="#email" class="btn">Get Started</a>
+  </section>
 
-<section class="features">
-  <div class="card">
-    <h3>Local Intelligence</h3>
-    <p>Trained on your business data</p>
-  </div>
-  <div class="card">
-    <h3>24/7 Smart Chat</h3>
-    <p>Automate support, bookings, FAQs</p>
-  </div>
-  <div class="card">
-    <h3>Multilingual</h3>
-    <p>Talk to users in their language</p>
-  </div>
-</section>
+  <section class="use-cases">
+    <h2 style="color: #00ffe7;">What Can AIVOX GPT Do?</h2>
+    <div class="use-cases-grid">
+      <div class="case">💼 Business Proposals</div>
+      <div class="case">🎨 Creative Content & Images</div>
+      <div class="case">📊 Market Research & Analysis</div>
+      <div class="case">📧 Email & Ad Copywriting</div>
+    </div>
+  </section>
 
-<section class="niches">
-  <div class="card">
-    <h3>Restaurants</h3>
-    <p>Menu, orders & reservations</p>
-  </div>
-  <div class="card">
-    <h3>Clinics</h3>
-    <p>Patient chat & booking</p>
-  </div>
-  <div class="card">
-    <h3>Agencies</h3>
-    <p>Lead capture & nurture</p>
-  </div>
-</section>
+  <section class="email-block" id="email" style="background: #000;">
+    <h2>Get Early Access</h2>
+    <p>Sign up to be the first to experience AIVOX GPT tools</p>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <input type="email" name="email" required placeholder="Your email" />
+      <button type="submit">Notify Me</button>
+    </form>
+  </section>
 
-<section class="email-capture">
-  <h2>Get Early Access</h2>
-  <p>Be the first to try AIVOX GPT</p>
-  <input type="email" placeholder="Enter your email" />
-  <br/>
-  <button>Notify Me</button>
-</section>
-
-<footer>
-  © 2025 AIVOX. All rights reserved.
-</footer>
+  <section class="cta" style="background: #161616;">
+    <h2>Launch Your GPT with AIVOX</h2>
+    <p>Power your business with the smartest AI models.</p>
+    <a href="#" class="btn">Try Free Demo</a>
+  </section>
 
 </body>
 </html>
