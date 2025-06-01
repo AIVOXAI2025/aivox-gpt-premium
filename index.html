@@ -3,29 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AIVOX CRM & Analytics</title>
+  <title>AIVOX GPT - AI Tool</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="dashboard">
-    <h1>📊 AIVOX GPT: CRM + Analytics</h1>
-    <div class="panel">
-      <h2>🧠 Leads Captured</h2>
-      <p><strong>API:</strong> Connected to Formspree</p>
-      <p><strong>Data:</strong> JSON export available</p>
-    </div>
-    <div class="panel">
-      <h2>📈 Traffic Insights</h2>
-      <p>Connect with Google Analytics, Vercel Insights, or Plausible.</p>
-    </div>
-    <div class="panel">
-      <h2>🧬 Next Steps</h2>
-      <ul>
-        <li>Integrate with Airtable / Notion API</li>
-        <li>Connect Google Sheets for live sync</li>
-        <li>Enable user tagging + segmentation</li>
-      </ul>
-    </div>
+  <div class="container">
+    <h1>🤖 AIVOX GPT AI Toolkit</h1>
+    <form id="aiForm">
+      <label for="prompt">Enter Your Prompt:</label><br>
+      <textarea id="prompt" name="prompt" rows="5" placeholder="e.g., Generate Instagram captions for a fitness coach..."></textarea>
+      <button type="submit">Generate</button>
+    </form>
+    <div id="output"></div>
   </div>
+  <script src="app.js"></script>
 </body>
 </html>
