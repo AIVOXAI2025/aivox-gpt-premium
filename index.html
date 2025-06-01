@@ -36,6 +36,28 @@
     <blockquote>“My clients love the speed. It's my secret weapon!” – Priya, Freelancer</blockquote>
   </div>
 
+  <div class="pricing">
+    <h2>Plans & Pricing</h2>
+    <div class="plan">
+      <h3>Starter</h3>
+      <p>Free forever</p>
+      <ul>
+        <li>5 prompts/day</li>
+        <li>Basic tools</li>
+      </ul>
+      <button disabled>Current Plan</button>
+    </div>
+    <div class="plan">
+      <h3>Pro</h3>
+      <p>$9.99/month</p>
+      <ul>
+        <li>Unlimited prompts</li>
+        <li>All tools unlocked</li>
+      </ul>
+      <button onclick="window.location.href='https://buy.stripe.com/test-payment'">Upgrade Now</button>
+    </div>
+  </div>
+
   <div class="chatbox">
     <textarea id="prompt" placeholder="Ask anything..."></textarea>
     <button onclick="sendPrompt()">Generate</button>

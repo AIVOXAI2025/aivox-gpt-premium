@@ -15,7 +15,7 @@ body {
   color: #ffb347;
 }
 
-.features, .usecases, .testimonials {
+.features, .usecases, .testimonials, .pricing {
   margin: 2rem auto;
   width: 90%;
   max-width: 600px;
@@ -25,17 +25,17 @@ body {
   border-radius: 10px;
 }
 
-.features h2, .usecases h2, .testimonials h2 {
+.features h2, .usecases h2, .testimonials h2, .pricing h2 {
   text-align: center;
   color: #ffb347;
 }
 
-.features ul {
+.features ul, .plan ul {
   list-style: none;
   padding-left: 0;
 }
 
-.features li {
+.features li, .plan li {
   padding: 0.5rem 0;
   font-size: 1rem;
   border-bottom: 1px solid #333;
@@ -44,6 +44,38 @@ body {
 .usecases p, .testimonials blockquote {
   font-size: 1rem;
   margin: 0.5rem 0;
+}
+
+.plan {
+  background-color: #2a2a4f;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.plan h3 {
+  color: #ffb347;
+}
+
+.plan p {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.plan button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffb347;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.plan button:hover {
+  background-color: #ffc766;
 }
 
 .chatbox {
