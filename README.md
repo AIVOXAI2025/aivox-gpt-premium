@@ -1,5 +1,5 @@
-# AIVOX GPT Phase 21
+# AIVOX GPT Phase 22
 
 This release includes:
-- Initial Custom Tool Integration
-- Framework for Tool Execution
+- Enhanced Tool Selector UI
+- Modular Tool Registry Support
