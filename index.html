@@ -3,16 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AIVOX GPT</title>
+  <title>AIVOX GPT Pro</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>AIVOX GPT Assistant</h1>
-    <textarea id="prompt" placeholder="Type your prompt here..."></textarea>
-    <button onclick="sendPrompt()">Ask</button>
+  <div class="header">
+    <h1>AIVOX GPT <span class="highlight">PRO</span></h1>
+    <p>Your AI Assistant for Business & Innovation</p>
+  </div>
+  <div class="chatbox">
+    <textarea id="prompt" placeholder="Ask anything..."></textarea>
+    <button onclick="sendPrompt()">Generate</button>
     <div id="responseBox"></div>
   </div>
+  <footer>© 2025 AIVOX. All rights reserved.</footer>
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,46 +1,65 @@
 body {
-  background-color: #0e0e10;
-  color: #ffffff;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #fff;
   font-family: 'Segoe UI', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
-.container {
+.header {
+  padding: 2rem 1rem;
+}
+
+.highlight {
+  color: #ffb347;
+}
+
+.chatbox {
+  margin: 2rem auto;
   width: 90%;
   max-width: 600px;
 }
 
 textarea {
   width: 100%;
-  height: 150px;
+  height: 140px;
   padding: 1rem;
-  background: #1e1e2f;
-  color: #fff;
-  border: none;
+  font-size: 1rem;
+  background-color: #1f1f2e;
+  color: #ffffff;
   border-radius: 10px;
-  resize: none;
-  margin-top: 1rem;
+  border: none;
+  margin-bottom: 1rem;
 }
 
 button {
-  margin-top: 1rem;
-  padding: 0.8rem 1.5rem;
-  background-color: #5e60ce;
+  background-color: #ffb347;
+  color: #000;
+  font-weight: bold;
   border: none;
-  color: white;
-  font-size: 1rem;
-  border-radius: 8px;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ffc766;
 }
 
 #responseBox {
   margin-top: 1rem;
-  background: #27293d;
   padding: 1rem;
+  background-color: #1a1a2f;
   border-radius: 10px;
+  min-height: 80px;
   white-space: pre-wrap;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.6;
 }
