@@ -3,19 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AIVOX GPT - AI Tool</title>
+  <title>AIVOX GPT</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>🤖 AIVOX GPT AI Toolkit</h1>
-    <form id="aiForm">
-      <label for="prompt">Enter Your Prompt:</label><br>
-      <textarea id="prompt" name="prompt" rows="5" placeholder="e.g., Generate Instagram captions for a fitness coach..."></textarea>
-      <button type="submit">Generate</button>
-    </form>
-    <div id="output"></div>
+    <h1>AIVOX GPT Assistant</h1>
+    <textarea id="prompt" placeholder="Type your prompt here..."></textarea>
+    <button onclick="sendPrompt()">Ask</button>
+    <div id="responseBox"></div>
   </div>
-  <script src="app.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
