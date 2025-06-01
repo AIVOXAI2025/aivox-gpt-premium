@@ -1,5 +1,5 @@
-# AIVOX GPT Phase 20
+# AIVOX GPT Phase 21
 
 This release includes:
-- Multi-language Support (i18n)
-- SEO Enhancements with Meta Tags
+- Initial Custom Tool Integration
+- Framework for Tool Execution
