@@ -1,6 +1,6 @@
-# Phase 34 - LocalGPT Prompt Templates & History Tracking
+# Phase 35 - User Authentication System
 
 This phase includes:
-- ✅ Typing animation
-- ✅ LocalGPT Prompt Templates
-- ✅ History tracking (scrollable)
+- ✅ Login and Signup pages
+- ✅ JWT-based session management
+- ✅ Basic backend API integration
