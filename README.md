@@ -1,5 +1,6 @@
-# AIVOX GPT Phase 22
+# Phase 34 - LocalGPT Prompt Templates & History Tracking
 
-This release includes:
-- Enhanced Tool Selector UI
-- Modular Tool Registry Support
+This phase includes:
+- ✅ Typing animation
+- ✅ LocalGPT Prompt Templates
+- ✅ History tracking (scrollable)
